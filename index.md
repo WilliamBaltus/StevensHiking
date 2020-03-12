@@ -2,14 +2,17 @@
 <html> 
   <head> 
   <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="
   <meta charset = "utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body> 
-<div id="header">
-<h1> Trail Blazers </h1>
-<p> Welcome mountain men and women! If you're a Stevens student who enjoys the outdoors and is need of a weekend getaway to a nearby park or trail you're in the right place. </p>
+  <div id="header">
+  <h1> Trail Blazers </h1>
+  <p> Welcome mountain men and women! If you're a Stevens student who enjoys the outdoors and is need of a weekend getaway to a nearby park or trail you're in the right place. </p>
+  <p> Our mission is to provide you with a variety of parks within a 150 mile radius of Stevens Institute of Technology with various methods of transportation(driving, transit, uber) as well as difficulty of hike.</p>
 </div>
 </body>
 </html>
+
