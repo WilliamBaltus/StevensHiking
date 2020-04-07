@@ -1,1 +1,7 @@
-prompt("Stevo is a Scrub")
+/*#map{
+    height: 400px; 
+    width: 100%; 
+}*/ 
+body{
+    background-color: lavender;
+}

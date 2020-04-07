@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Directions to Parks</title>
+    <meta charset = "utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Directions to Parks</h1>
+    <div id="map"></div>
+    <script>
+        function initMap(){
+            var directionsService = new google.maps.DirectionsService();
+            var directionsRenderer= new google.maps.DirectionsRenderer();
+            
+            var stevens = new google.maps.LatLng(40.7451, -74.0248);
+            var mapOptions = {
+                zoom:10, 
+                center: stevens
+            }
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+            directionsRenderer.setMap(map);
+        }
+        function calcRoute(){
+        request = {
+         origin: "lat: 40.7451,  long: -74.0248",
+         destination: "lat: 41.29542, long:-74.05965",
+         travelMode:"DRIVING, TRANSIT",
+         key: "AIzaSyB286hGEyJBDSiL-Q5vpIEolAo6Yg3Qzh8"
+        };
+        directionsService.route(request, function(result, status){
+    if(status=='OK'){
+        directionsDisplay.setDirections(result);
+    }
+         });
+        }
+    </script>
+</body>
+</html>
