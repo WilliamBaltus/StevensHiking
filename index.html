@@ -1,28 +1,49 @@
 <!DOCTYPE HTML>
 <head>
-  <style>
- #map {
-    height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
-   }
-  </style>
+  
+
+
+ <link rel="stylesheet" type="text/css" href="main.css"/>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
- <script type='text/javascript' src='config.js'> </script>
- <script type='text/javascript' src="script.js"></script>
- <script type= "text/javascript" src="directions.js"></script>
- <script type="text/javscript" src="main.js"></script>
     <!-- This is jQuery libraries, has short codes for scripts -->
 <title> Trailblazers</title>
 <meta charset = "utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="main.css"/>
+
+<style>
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+  </style>
 </head>
+
 <body> 
     <div id="header">
     <h1> Trail Blazers </h1>
-    <p> Welcome mountain men and women! If you're a Stevens student who enjoys the outdoors and is need of a weekend getaway to a nearby park or trail you're in the right place. </p>
-    <p> Our mission is to provide you with a variety of parks within a 150 mile radius of Stevens Institute of Technology with various methods of transportation(driving, transit, uber) as well as difficulty of hike.</p>
-  </div>
+    </div>
+   
+    <div class= menu_bar>
+      <ul>
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="about_us.html">About Us</a></li> 
+        <li><a href="search.html">Trailblaze</a></li>
+        <li><a href="Parks.html">Parks</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+    
+
+      
+    <h2><strong>Welcome</strong></h2>
+    <p> Welcome Stevens students! Are you itching to enjoy the outdoors but don't know where to go? If so, you've come to the right spot. 
+      Trail Blaze is a service to help Stevens students locate parks near Hoboken best suited to their needs. We provide a range of parks with 
+      different trail difficulties and lengths. We provide driving directions, possile transit routes and uber cost estimations to different parks in the area. </p>
+    
+    <h2><strong>Mission</strong></h2>
+      <p>The mountains are yours to explore. </p>
+
+      <button><a href="search.html">Take a Hike</a>!</button>
   <div id='map'></div>
       <script>
           function initMap(){
@@ -40,7 +61,7 @@
     	      The callback parameter executes the initMap() function
     	    -->
           <script async defer 
-          src= https://maps.googleapis.com/maps/api/js?key=GOOGLE_API_KEY&callback=initMap>
+          src= https://maps.googleapis.com/maps/api/js?key=AIzaSyB286hGEyJBDSiL-Q5vpIEolAo6Yg3Qzh8&callback=initMap >
           </script> 
     	  
    </body>

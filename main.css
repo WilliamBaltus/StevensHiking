@@ -2,6 +2,55 @@
     height: 400px; 
     width: 100%; 
 }*/ 
+#header{
+    align: center;
+    padding: 100px;
+    padding-top:50px;
+    padding-bottom:0; 
+}
 body{
-    background-color: lavender;
+    font-family: "Copperplate Gothic Light";
+    background-color: #339966;
+    position: relative; 
+    text-align: center;
+    padding:20px;
+    
+}
+
+
+ul{
+    border: 2px solid black;
+    list-style-type: none;
+    text-align: center; 
+    padding:10px;
+    background-size:cover;
+    background-color:white ;
+}
+
+li{
+     
+    display:inline;  
+    margin:80px;
+    
+}
+
+a, a:visited{
+    color:black; 
+}
+
+p{
+    padding-bottom:30px;
+}
+
+button{
+    padding:20px;
+    border-radius:10px;
+    border:none;
+    font-family: "Copperplate Gothic Light";
+    background-color: #b3d9ff;
+    transition-duration:1s;
+    margin:10px;
+}
+button:hover{
+    background-color: dodgerblue; 
 }
