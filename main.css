@@ -27,12 +27,10 @@ ul{
     background-color:white ;
 }
 
-li{
-     
-    display:inline;  
-    margin:80px;
-    
-}
+.menu_bar li{
+      display:inline;  
+      margin:80px;
+    }
 
 a, a:visited{
     color:black; 
