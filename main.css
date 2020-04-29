@@ -52,3 +52,25 @@ button{
 button:hover{
     background-color: dodgerblue; 
 }
+
+#map{
+    height: 400px; 
+    width: 100%; 
+}
+#panel{
+    height:150px;
+    width:50%;
+}
+
+.abt{
+    text-align:left;
+}
+
+.imgs{
+    text-align:left;
+    margin-left:0px;
+}
+img{
+    max-width:250px;
+    max-height:175px;
+}
