@@ -1,1 +1,132 @@
-prompt("Stevo is a Scrub")
+#map{
+    height: 400px; 
+    width: 100%; 
+}
+#panel{
+    height:150px;
+    width:50%;
+}
+
+.abt{
+    text-align:left;
+}
+
+.imgs{
+    text-align:left;
+    margin-left:0px;
+}
+img{
+    max-width:250px;
+    max-height:175px;
+}
+    
+#header{
+    
+    padding: 100px;
+    padding-top:50px;
+    padding-bottom:0; 
+}
+body{
+    font-family: "Copperplate Gothic Light";
+    background-color: #339966;
+    position: relative; 
+    text-align: center;
+    padding:20px;
+    
+}
+
+
+.menu_bar ul{
+    border: 2px solid black;
+    list-style-type: none;
+    text-align: center; 
+    
+    background-size:cover;
+    background-color:white ;
+}
+
+.menu_bar li{
+    margin-left:20px;
+    margin-right:20px;
+    display:inline;
+    
+}
+.nav{
+    display:inline-block;
+    padding:20px;
+    height:20px;
+
+
+}
+
+.nav:hover{
+    background-color: #d6ccb0;
+}
+
+
+
+
+a, a:visited{
+    color:black; 
+}
+
+p{
+    padding-bottom:30px;
+}
+
+button{
+    padding:20px;
+    border-radius:10px;
+    border:none;
+    font-family: "Copperplate Gothic Light";
+    background-color: #b3d9ff;
+    transition-duration:1s;
+    margin:10px;
+}
+button:hover{
+    background-color: dodgerblue; 
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+.drop-content{
+    display:none;
+    position:absolute;
+    background-color:white;
+    min-width: 160px;
+    height:fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+
+}
+
+.drop-content a{
+    padding: 12px, 16px;
+    color:black;
+    display:block;
+    text-overflow: wrap;
+    
+}
+
+.drop-content a:hover{
+    background-color:#d6ccb0;
+}
+.dropdown:hover .drop-content{
+    display:block;
+    background-color: white;
+}
+
+/* .location{
+    padding:80px,20px;
+    height:20px;
+    background-color:white;
+
+}
+
+.location:hover{
+    background-color:#58c6ce;
+
+} */
