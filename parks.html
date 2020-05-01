@@ -1,14 +1,171 @@
 <!DOCTYPE HTML>
+
 <html>
     <head>
-        <title></title>
-        <body>
-            <div class= menu_bar>
-            <ul>
-              <li><a href="index.html" class='nav'> Home</a></li>
-              <li><a href="about_us.html" class='nav'>About Us</a></li> 
-              <li><a href="search.html" class='nav'>Trailblaze</a></li>
-          
+        <style>
+            #info h1{
+                text-align: center;
+                text-decoration: underline;
+                font-size: 50px;
+            }
+            
+            #header{
+                text-align: center;
+                padding: 100px;
+                padding-top:50px;
+                padding-bottom:0; 
+                font-family: "Copperplate Gothic Light";
+                    }
+            body{
+                font-family: "Copperplate Gothic Light";
+                background-color: #339966;
+                position: relative; 
+                text-align: center;
+                padding:20px;
+    
+                }
+
+
+            ul{
+                border: 2px solid black;
+                list-style-type: none;
+                text-align: center; 
+                padding:10px;
+                background-size:cover;
+                background-color:white ;
+                }
+
+            .menu_bar li{
+                display:inline;  
+                margin:80px;
+                }
+
+            a, a:visited{
+                color:black; 
+                }
+
+            #parkname {
+                font-size: 34px;
+                font-family: "Copperplate Gothic Light";
+                text-decoration: underline;
+                text-align:center;
+                display: block;
+                background-color:gainsboro;
+                border: 2px;
+                
+            }
+            #parkname:hover {
+                background-color:white;
+            }
+            
+            #Park{
+                border: 20px;
+                display: inline-block;
+                width: 100%;
+            }
+                        
+            p {
+                font-size: 20px;
+            }
+            
+            ul {
+                font-size: 20px;
+                border-radius: 6px; 
+                list-style-type: none;
+            }
+            
+            ol {
+                font-size: 20px;
+                border-radius: 6px; 
+                list-style-type: none;
+            }
+    
+            #Park .harrimantrails{
+                position: absolute;
+                left: 506px;
+                right: 100 px;
+                top: 550px;
+                text-align: left;
+            }
+            
+            #Park .southtrails{
+                position: absolute;
+                left: 506px;
+                right: 100 px;
+                top: 1050px;
+                text-align: left;
+            }
+            #Park .richtrails{
+                position: absolute;
+                left: 506px;
+                right: 100 px;
+                top: 1550px;
+                text-align: left;
+            }
+            #Park .beartrails{
+                position: absolute;
+                left: 506px;
+                right: 100 px;
+                top: 2050px;
+                text-align: left;
+            }
+            #png img{
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                left: 1200px;
+                right:50px;
+                top: 500px;
+            }
+            #png2 img{
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                left: 1200px;
+                right:50px;
+                top: 1000px;
+            }
+            #png3 img{
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                left: 1200px;
+                right:50px;
+                top: 1500px;
+            }
+            #png4 img{
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                left: 1200px;
+                right:50px;
+                top: 2000px;
+            }
+        </style>
+        <title>The List of Parks</title>
+    
+            <body>
+                <div id= 'png'>
+                       <a href = 'harriman.html' > <img src= 'combined.png'>  </a>
+                </div>
+                    <div id= 'png2'>
+                       <a href = 'harriman.html' > <img src= 'combined.png'>  </a>
+                    </div>
+                    <div id= 'png3'>
+                       <a href = 'harriman.html' > <img src= 'combined.png'>  </a>
+                    </div>
+                    <div id= 'png4'>
+                       <a href = 'harriman.html' > <img src= 'combined.png'>  </a>
+                    </div>
+                <div id="header">
+                    <h1> Trail Blazers </h1>
+                </div>
+                <div class= menu_bar>
+                    <ul>
+                      <li><a href="index.html" class='nav'> Home</a></li>
+                      <li><a href="about_us.html" class='nav'>About Us</a></li> 
+                      <li><a href="search.html" class='nav'>Trailblaze</a></li>
+
                 <div class='dropdown'>
                   <li><a href="Parks.html" class='nav'>Parks</a></li>
                   <div class='drop-content'>
@@ -23,8 +180,83 @@
               <li><a href="Gallery.html" class='nav'>Gallery</a></li>
             </ul>
           </div> 
-            
-        </body>
-        
+                <h1 id= "info"> Parks Information</h1>
+                <!-- Harriman State Park Info -->
+                <div id = "Park" style="border: thick solid black">
+                    <h1 id= "parkname"> Harriman State Park</h1>
+                    <iframe width="520" height="415" style="float:left" src="https://www.youtube.com/embed/nr95tUAW6_4" allowfullscreen>  </iframe>
+                    <p> <b> Description:</b></p>
+                    <p> At 47,527 acres, Harriman State Park is the second largest state park in New York State. Located in Rockland and Orange counties 30 miles north of New York City, it is a haven for hikers with over 200 miles of hiking trails.</p>
+                    <div class= "harrimantrails">
+                    <ol><b> Trails you can find here:</b>
+                        <li>Silver Mine Lake Loop(easy)</li>
+                        <li>Timp Torne Blue R-D red trail Loop(moderate)</li>
+                        <li>Black Mountain Loop(hard)</li>
+                    </ol>
+                        </div>
+                </div>
+                
+                <div id = "Park" style="border: thick solid black">
+                    <h1 id= "parkname"> South Mountain Reservation</h1>
+                    <iframe width="520" height="415" style="float:left" src="https://www.youtube.com/embed/jaRBsgbYBzo" allowfullscreen>  </iframe>
+                    <p> <b> Description:</b></p>
+                    <p> South Mountain Reservation, covering 2,110 acres, is a nature reserve on the Rahway River that is part of the Essex County Park System in northeastern New Jersey, United States.</p>
+                    <div class= "southtrails">
+                    <ol><b> Trails you can find here:</b>
+                        <li>Turtle Back Trail Loop(easy)</li>
+                        <li>Watchung Reservation History Trail(moderate)</li>
+                        <li>Lenape Trail: South Moutain Reservation (hard)</li>
+                    </ol>
+                        </div>
+                </div>
+                <div id = "Park" style="border: thick solid black">
+                    <h1 id= "parkname"> Richard W. Dekorte Park</h1>
+                    <iframe width="520" height="415" style="float:left" src="https://www.youtube.com/embed/2woiaeheyT4" allowfullscreen>  </iframe>
+                    <p> <b> Description:</b></p>
+                    <p>  Estuary park with walking paths plus an environmental center and observatory access on select days.</p>
+                    <div class= "richtrails">
+                    <ol><b> Trails you can find here:</b>
+                        <li>Dekorte Park Meadowlands Trail(easy)</li>
+                    </ol>
+                        </div>
+                </div>
+                <div id = "Park" style="border: thick solid black">
+                    <h1 id= "parkname"> Bear Mountain State Park</h1>
+                    <iframe width="520" height="415" style="float:left" src="https://www.youtube.com/embed/vtMzLhxykNU" allowfullscreen>  </iframe>
+                    <p> <b> Description:</b></p>
+                    <p>Bear Mountain is one of the best-known peaks of New York's Hudson Highlands. Located partially in Orange County in the town of Highlands and partially in Rockland County in the town of Stony Point, it lends its name to the nearby Bear Mountain Bridge and Bear Mountain State Park that contains it.</p>
+                    <div class= "beartrails">
+                    <ol><b> Trails you can find here:</b>
+                        <li>Perkins Memorial Tower via Appalachian Trail (easy)</li>
+                        <li> Bear mountain loop via twin forts(moderate)</li>
+                        <li>Dunderberg, Bald Rocks, Timp Loop (hard)</li>
+                    </ol>
+                        </div>
+                </div>                
+            </body>
+    <script>
+       $(document).ready(function() 
+{
+        $( 'body' ).fadeIn("slow", 0.0);
+        $( 'body' ).fadeIn("slow", 0.1);
+        $( 'body' ).fadeIn("slow", 0.2);
+        $( 'body' ).fadeIn("slow", 0.3);
+        $( 'body' ).fadeIn("slow", 0.4);
+        $( 'body' ).fadeIn("slow", 0.5);
+        $( 'body' ).fadeIn("slow", 0.6);
+        $( 'body' ).fadeIn("slow", 0.7);
+        $( 'body' ).fadeIn("slow", 0.8);
+        $( 'body' ).fadeIn("slow", 0.9);
+        $( 'body' ).fadeIn("slow", 1.0);
+                $('a').click(function(){
+                $('body').fadeOut();
+                 setTimeout("nav('"+this.href+"')",1000);
+               return false;
+       });
+    });
+function nav(href){
+location.href=href;
+};
+        </script>
     </head>
 </html>
