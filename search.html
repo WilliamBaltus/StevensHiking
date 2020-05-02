@@ -1,9 +1,78 @@
-<p><<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        <body>
-            <div class= menu_bar>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+    #one{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #two{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #three{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #four{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #five{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #six{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #seven{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #eight{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #nine{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #ten{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+    #eleven{
+        padding: 50px 0;
+        background-color: lightblue;
+        display: none;
+    }
+</style>
+</head>
+    <div id="header">
+    <h1> Trail Blazers </h1>
+    </div>
+   
+    <div class= menu_bar>
             <ul>
               <li><a href="index.html" class='nav'> Home</a></li>
               <li><a href="about_us.html" class='nav'>About Us</a></li> 
@@ -22,7 +91,212 @@
                 </div>
               <li><a href="Gallery.html" class='nav'>Gallery</a></li>
             </ul>
-          </div> 
-        </body>
-    </head>
+          </div>
+<body>
+
+<p>How far? </p>
+        <input id = "d1" name = "distance" type = "radio" value = "10">10 miles</input><br>
+        <input id = "d2" name = "distance" type = "radio" value = "20">20 miles</input><br>
+        <input id = "d3" name = "distance" type = "radio" value = "30">30 miles</input><br>
+        <input id = "d4" name = "distance" type = "radio" value = "40">40 miles</input><br>
+        <input id = "d5" name = "distance" type = "radio" value = "50">50 miles</input><br>
+        <p>Intensity?</p>
+        <input id = "i1" name = "intensity" type = "radio" value = "easy">Easy</input><br>
+        <input id = "i2" name = "intensity" type = "radio" value = "medium">Moderate</input><br>
+        <input id = "i3" name = "intensity" type = "radio" value = "hard">Expert</input><br>
+<button onclick="hide1()">click me</button>
+<p id="one">
+<a href = 'richard_dekorte.html' class='location'>Dekorte Park Medowlands Trail</a>
+</p>
+<p id="two">
+<a href = "south_mtn.html" class='location'>Sunset Trail</a>
+</p>
+<p id="three">
+<a href = "south_mtn.html" class='location'>Rahway Trail</a>
+</p>
+<p id="four">
+<a href = "south_mtn.html" class='location'>Lenape Loop</a>
+</p>
+<p id="five">
+<a href = 'mt_tammany.html'class='location'>Hacken Sack Meadows Paddle</a>
+</p>
+<p id="six">
+ <a href = "harriman.html" class="location">Black Mountain Loop</a>
+</p>
+<p id="seven">
+<a href = "harriman.html" class="location">Silver Mine Lake Loop</a>
+</p>
+<p id="eight">
+<a href = "harriman.html" class="location">Timp Tornen Bluen R-D red trail Loop</a>
+</p>
+<p id="nine">
+<a href = 'bear_mtn.html' class='location'>Timp Loop</a>
+</p>
+<p id="ten">
+<a href = 'bear_mtn.html' class='location'>Bear Mountain Loop via Twin Forts</a>
+</p>
+<p id="eleven">
+<a href = 'bear_mtn.html' class='location'>Perkins Memorial Tower via Appalachian Trail</a>
+</p>
+<script>
+//trail ={trail name,park name, distance, intensity, 40,70}
+var SilverMine = ["Silver Mine Lake Loop", "Harriman State Park",36.6,"easy", "six"];
+var BlackMountain = ["Black Mountain Loop", "Harriman State Park",36.6,"hard", "seven"];
+var TimpTorne = ["Timp Tornen Bluen R-D red trail Loop", "Harriman State Park",36.6,"medium", "eight"];
+var TimpLoop = ["Timp Loop", "Bear Mountain", 50,"hard", "nine"];
+var BearMountain = ["Bear Mountain Loop via Twin Forts", "Bear Mountain", 50,"medium","ten"];
+var PerkinsMemorial = ["Perkins Memorial Tower via Appalachian Trail", "Bear Mountain", 50,"easy","eleven"];
+var Sunset = ["Sunset Trail", "South Mountain Reservation", 18, "easy","two"];
+var Rahway = ["Rahway Trail", "South Mountain Reservation", 18, "medium","three"];
+var Lenape = ["Lenape Loop", "South Mountain Reservation", 18, "hard","four"];
+var Dekorte = ["Dekorte Park Medowlands Trail", "Richard W Dekorte Park",10,"easy","one"];
+var laurel = ["Hacken Sack Meadows Paddle", "Laurel Hill Park",23, "medium","five"];
+var emptrail = ["s","c",100,"r","u","b"];
+var trails = [SilverMine, BlackMountain,TimpTorne,TimpLoop, BearMountain, PerkinsMemorial, Sunset, Rahway, Lenape, Dekorte, laurel];
+function hide1(){
+    var one = document.getElementById("one");
+    var two = document.getElementById("two");
+    var three = document.getElementById("three");
+    var four = document.getElementById("four");
+    var five = document.getElementById("five");
+    var six = document.getElementById("six");
+    var seven = document.getElementById("seven");
+    var eight = document.getElementById("eight");
+    var nine = document.getElementById("nine");
+    var ten = document.getElementById("ten");
+    var eleven = document.getElementById("eleven");
+    one.style.display = "none";
+    two.style.display = "none";
+    three.style.display = "none";
+    four.style.display = "none";
+    five.style.display = "none";
+    six.style.display = "none";
+    seven.style.display = "none";
+    eight.style.display = "none";
+    nine.style.display = "none";
+    ten.style.display = "none";
+    eleven.style.display = "none";
+    var d1 = document.getElementById("d1");
+    var d2 = document.getElementById("d2");
+    var d3 = document.getElementById("d3");
+    var d4 = document.getElementById("d4");
+    var d5 = document.getElementById("d5");
+    var i1 = document.getElementById("i1");
+    var i2 = document.getElementById("i2");
+    var i3 = document.getElementById("i3");
+    var dis;
+    var int;
+    if (d1.checked == true)
+        dis = d1.value;
+    else if (d2.checked == true)
+        dis= d2.value;
+    else if (d3.checked == true)
+        dis = d3.value;
+    else if (d4.checked == true)
+        dis = d4.value;
+    else if (d5.checked == true)
+        dis = d5.value;
+    else
+        alert("No distance checked");
+    if (i1.checked == true)
+        int = i1.value;
+    else if (i2.checked == true)
+        int = i2.value;
+    else if (i3.checked == true)
+        int = i3.value;
+    else
+        alert("No Intensity checked");
+    var perfit = [];
+    var distfit = [];
+    var intfit = [];
+    var nofit = [];
+    var finfit = [];
+    for(var i = 0; i < trails.length;i=i+1){
+        if (trails[i][2] <= parseFloat(dis)){
+            if (trails[i][3] == int){
+                perfit.push(trails[i]);
+            }
+            else{
+                distfit.push(trails[i]);
+            }
+        }
+        else{
+            if (trails[i][3] == int){
+                intfit.push(trails[i]);
+            }
+            else{
+                nofit.push(trails[i]);
+            }
+        }
+    }
+    var lowest;
+    var lowe;
+    var juc;
+    if(perfit.length > 0){
+        for(var p = 0; p< perfit.length;p=p+1){
+            lowest = 100;
+            for(var j = 0; j< perfit.length;j=j+1){
+                if(perfit[j][2] < lowest){
+                    lowest = perfit[j][2];
+                    lowe = perfit[j];
+                    juc = j;
+                }
+            }
+            finfit.push(lowe);
+            perfit[juc] = emptrail;
+        }  
+    }
+    if(distfit.length > 0){
+    for(p = 0; p< distfit.length;p=p+1){
+        lowest = 100;
+        for(j = 0; j< distfit.length;j=j+1){
+            if(distfit[j][2] < lowest){
+                lowest = distfit[j][2];
+                lowe = distfit[j];
+                juc = j;
+            }
+        }
+        finfit.push(lowe);
+        distfit[juc] = emptrail;
+    }
+    }
+    if(intfit.length > 0){
+    for(p = 0; p< intfit.length;p=p+1){
+        lowest = 100;
+        for(j = 0; j< intfit.length;j=j+1){
+            if(intfit[j][2] < lowest){
+                lowest = intfit[j][2];
+                lowe = intfit[j];
+                juc = j;
+            }
+        }
+        finfit.push(lowe);
+        intfit[juc] = emptrail;
+    }
+    }
+    if(lowest.length > 0){
+    for(p = 0; p< nofit.length;p=p+1){
+        lowest = 100;
+        for(j = 0; j< nofit.length;j=j+1){
+            if(distfit[j][2] < lowest){
+                lowest = distfit[j][2];
+                lowe = distfit[j];
+                juc = j;
+            }
+        }
+        finfit.push(lowe);
+        nofit[juc] = emptrail;
+    }
+    }
+    var x = document.getElementById(finfit[0][4]);
+    var y = document.getElementById(finfit[1][4]);
+    var z = document.getElementById(finfit[2][4]);
+    x.style.display = "block";
+    y.style.display = "block";
+    z.style.display = "block";
+    
+    }
+</script>
+
+</body>
 </html>
