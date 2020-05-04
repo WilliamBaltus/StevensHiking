@@ -11,13 +11,24 @@
         <h1>Laurel Hill Park</h1>
         <div class= menu_bar>
             <ul>
-              <li><a href="index.html"> Home</a></li>
-              <li><a href="about_us.html">About Us</a></li> 
-              <li><a href="search.html">Trailblaze</a></li>
-              <li><a href="Parks.html">Parks</a></li>
-              <li><a href="Gallery.html">Gallery</a></li>
+              <li><a href="index.html" class='nav'> Home</a></li>
+              <li><a href="about_us.html" class='nav'>About Us</a></li> 
+              <li><a href="search.html" class='nav'>Trailblaze</a></li>
+          
+                <div class='dropdown'>
+                  <li><a href="parks.html" class='nav'>Parks</a></li>
+                  <div class='drop-content'>
+                    <a href = "harriman.html" class="location">Harriman</a>
+                    <a href = 'bear_mtn.html' class='location'>Bear Mountain</a>
+                    <a href = "south_mtn.html" class='location'>South Mountain</a>
+                    <a href = 'mt_tammany.html'class='location'>Mount Tammany</a>
+                    <a href = 'richard_dekorte.html' class='location'>Richard W DeKorte</a>
+                    
+                  </div>
+                </div>
+              <li><a href="gallery.html" class='nav'>Gallery</a></li>
             </ul>
-          </div> 
+          </div>
         <div id="map"></div>
         <div id="panel"></div>
         <script id='harriman' type="text/javascript">
