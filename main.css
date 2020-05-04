@@ -113,17 +113,14 @@
     text-align:center;
     margin-left:0px;
     margin-top:0px;
-}
-img{
-    max-width:250px;
-    max-height:175px;
     align-content:center;
 }
+
 
 body{
     font-family: "Copperplate Gothic Light";
     background-color: #339966;
-    position: relative; 
+    position:relative;
     text-align: center;
     padding:20px;
     
@@ -149,8 +146,6 @@ body{
     display:inline-block;
     padding:20px;
     height:20px;
-
-
 }
 
 .nav:hover{
