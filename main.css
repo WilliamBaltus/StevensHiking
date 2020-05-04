@@ -102,6 +102,14 @@
                 right:50px;
                 top: 2000px;
             }
+#png5 img{
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                left: 1200px;
+                right:50px;
+                top: 2500px;
+            }
 #info h1{
                 text-align: center;
                 text-decoration: underline;
