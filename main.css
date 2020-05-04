@@ -11,6 +11,104 @@
     text-align:left;
 }
 
+#parkname {
+                font-size: 34px;
+                font-family: "Copperplate Gothic Light";
+                text-decoration: underline;
+                text-align:center;
+                display: block;
+                background-color:gainsboro;
+                border: 2px;
+
+            }
+            #parkname:hover {
+                background-color:white;
+            }
+
+            #Park{
+                border: 20px;
+                display: inline-block;
+                width: 100%;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            ol {
+                font-size: 20px;
+                border-radius: 6px; 
+                list-style-type: none;
+            }
+
+            #Park .harrimantrails{
+                position: absolute;
+                left: 506px;
+                right: 100 px;
+                top: 550px;
+                text-align: left;
+            }
+
+            #Park .southtrails{
+                position: absolute;
+                left: 506px;
+                right: 100 px;
+                top: 1050px;
+                text-align: left;
+            }
+            #Park .richtrails{
+                position: absolute;
+                left: 506px;
+                right: 100 px;
+                top: 1550px;
+                text-align: left;
+            }
+            #Park .beartrails{
+                position: absolute;
+                left: 506px;
+                right: 100 px;
+                top: 2050px;
+                text-align: left;
+            }
+            #png img{
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                left: 1200px;
+                right:50px;
+                top: 500px;
+            }
+            #png2 img{
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                left: 1200px;
+                right:50px;
+                top: 1000px;
+            }
+            #png3 img{
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                left: 1200px;
+                right:50px;
+                top: 1500px;
+            }
+            #png4 img{
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                left: 1200px;
+                right:50px;
+                top: 2000px;
+            }
+#info h1{
+                text-align: center;
+                text-decoration: underline;
+                font-size: 50px;
+            }
+
+
 .imgs{
     text-align:center;
     margin-left:0px;
