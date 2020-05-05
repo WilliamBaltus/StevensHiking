@@ -12,15 +12,14 @@
 }
 
 #parkname {
-                font-size: 34px;
-                font-family: "Copperplate Gothic Light";
-                text-decoration: underline;
-                text-align:center;
-                display: block;
-                background-color:gainsboro;
-                border: 2px;
-
-            }
+     font-size: 34px;
+     font-family: "Copperplate Gothic Light";
+     text-decoration: underline;
+     text-align:center;
+     display: block;
+     background-color:gainsboro;
+     border: 2px;
+}
             #parkname:hover {
                 background-color:white;
             }
@@ -68,6 +67,13 @@
                 left: 506px;
                 right: 100 px;
                 top: 2050px;
+                text-align: left;
+            }
+        #Park .tamtrails{
+                position: absolute;
+                left: 506px;
+                right: 100 px;
+                top: 2550px;
                 text-align: left;
             }
             #png img{
